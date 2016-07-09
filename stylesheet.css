@@ -1,6 +1,6 @@
 #header {
     position: static;
-    background-image: url(ignasi_pattern_s/ignasi_pattern_s.png);
+    background-image: url(ignasi_pattern_s.png);
     text-align: center;
     border-bottom-style: double;
     padding-bottom: 10px;
@@ -44,7 +44,7 @@ a:active {
 
 #body {
     position: static;
-    background-image: url(ignasi_pattern_s/ignasi_pattern_s.png);
+    background-image: url(ignasi_pattern_s.png);
     height: auto;
     padding: 10px 0 0 20px; 
 }
@@ -82,7 +82,7 @@ a:active {
 
 #footer {
     position: static;
-    background-image: url(ignasi_pattern_s/ignasi_pattern_s.png);
+    background-image: url(ignasi_pattern_s.png);
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
