@@ -63,6 +63,8 @@ body {
     text-align: center;
     font-family: cursive;
     text-indent: 30px;
+    font-size: 100px;
+    background-color: #00ff00;
 }
 
 .favorite {
