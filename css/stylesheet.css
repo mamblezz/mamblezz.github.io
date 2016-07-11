@@ -3,7 +3,7 @@ body {
 }
 #header {
     position: static;
-    background: url('../Images/ignasi.png');
+    background: url('../images/ignasi.png');
     text-align: center;
     border-bottom-style: double;
     padding-bottom: 10px;
@@ -47,7 +47,7 @@ body {
 
 #body {
     position: static;
-    background: url('../Images/ignasi.png');
+    background: url('../images/ignasi.png');
     height: auto;
     padding: 10px 0 0 20px; 
 }
@@ -98,7 +98,7 @@ iframe {
 
 #footer {
     position: static;
-    background: url('../Images/ignasi.png');
+    background: url('../images/ignasi.png');
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
