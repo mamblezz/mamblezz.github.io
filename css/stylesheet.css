@@ -88,9 +88,9 @@ body {
 .left {
     position:absolute;
     float: left;
-    height: 196.4%;
+    height: 200%;
     width: 70px;
-    margin-top: 1px;
+    margin-top: 2px;
     background-color: #0af;
 }
 .left ul {
