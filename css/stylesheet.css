@@ -1,0 +1,196 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#header {
+    position: static;
+    background: url('../images/ignasi.png');
+    text-align: center;
+    border-bottom-style: double;
+    padding-bottom: 10px;
+}
+
+.mypic {
+    border-radius: 100%;
+    padding-top: 5px;
+}
+
+.name {
+    margin: 0;
+    padding-bottom: 4px;
+    font-family: New Time Roman;
+}
+
+.gmail {
+    border: 1px solid #000000;
+    padding: 5px 5px;
+    margin: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.gmail:link {
+    background-color: #0000f5;
+}
+
+.gmail:visited {
+    background-color: #00f500;
+}
+
+.gmail:hover {
+    background-color: #f50000;
+}
+
+.gmail:active {
+    background-color: #f5f5f5;
+}
+
+#body {
+    position: static;
+    background: url('../images/ignasi.png');
+    height: auto;
+    padding: 10px 0 0 20px; 
+}
+.clockdate-wrapper {
+    background-color: #062578;
+    padding: 25px;
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#clock {
+    background-color: #062578;
+    font-family: sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #fff;
+    color: #fff;
+}
+#clock span {
+    color: #888;
+    text-shadow: 0px 0px 1px #333;
+    font-size: 30px;
+    position: relative;
+    top: -27px;
+    left: -10px;
+}
+#date {
+    letter-spacing: 10px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #fff;
+}
+.left {
+    position: absolute;
+    float: left;
+    height: 174.7%;
+    width: 70px;
+    background-color: #0af;
+}
+.left ul {
+    list-style: none;
+    position: fixed;
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.left img {
+    height: 50px;
+    width: 50px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+.about {
+    font-family: monospace;
+    text-decoration: line-through;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-family: cursive;
+    text-indent: 30px;
+    margin-left: 70px;
+}
+
+.favorite {
+    font-family: monospace;
+    text-decoration: line-through;
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+
+.favorites {
+    font-family: monospace;
+    margin-bottom: 0;
+    margin-right: 20cm;
+    margin-left: 70px;
+}
+
+#body ul {
+    list-style: none;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 70px;
+}
+
+#body li {
+    display: inline;
+}
+
+#body img {
+    position: inherit;
+}
+
+iframe {
+    border: 1px solid #000000;
+}
+
+#footer {
+    position: static;
+    background: url('../images/ignasi.png');
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-style: double;
+    margin-top: -0.5cm;
+}
+
+.form {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    margin-top: -1cm;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+#footer img {
+    display: inline;
+    margin-left: 20px;
+}
+
+.socials img {
+    width: 45px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-radius: 8px;
+    
+}
+
+.socials img:hover {
+    -webkit-transform: scale(1.2);
+    -webkit-transition: -webkit-transform .2s ease-in;
+}
