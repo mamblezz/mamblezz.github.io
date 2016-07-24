@@ -1,33 +1,33 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url(/images/ignasi.png);
+    background: #456789; 
 }
+
 #header {
-    position: static;
-    background: url('../images/ignasi.png');
     text-align: center;
-    border-bottom-style: double;
-    padding-bottom: 10px;
+    position: absolute;
+    width: auto;
+    height: auto; 
+    left: 13.7cm;
 }
 
 .mypic {
     border-radius: 100%;
-    padding-top: 5px;
+    margin-bottom: auto;
 }
 
 .name {
-    margin: 0;
-    padding-bottom: 4px;
-    font-family: New Time Roman;
+    font-family: serif;
+    margin: auto
 }
 
 .gmail {
     border: 1px solid #000000;
-    padding: 5px 5px;
     margin: auto;
     border-radius: 5px;
     text-decoration: none;
-    color: #ffffff;
+    padding: 0 5px;
+    color: #fff;
 }
 
 .gmail:link {
@@ -46,11 +46,72 @@ body {
     background-color: #f5f5f5;
 }
 
+.jumbo {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    width: 60px;
+}
+
+.icon-menu {
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #000;
+    margin-top: 0px;
+}
+
+.icon-menu:hover {
+    color: #0fff0f;
+    background-color: #ff0f0f;
+}
+
+.menu {
+    left: -285px;
+    height: 100%;
+    position:fixed;
+    width: 3.1cm;
+    background-color: #0fff0f;
+    top: 0px;
+    z-index: 1;
+}
+
+.menu ul {
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu li {
+    border-bottom: 1px solid #636366;
+    line-height: 45px;
+    padding-top: 3px;
+    list-style: none;
+    width: 80px;
+    text-align: center;
+}
+
+.menu a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 #body {
-    position: static;
-    background: url('../images/ignasi.png');
     height: auto;
-    padding: 10px 0 0 20px; 
+    width: 30cm;
+    position: relative;
+    top: 4cm;
+    left: 3cm;
+    text-align: center;
 }
 
 .clockdate-wrapper {
@@ -85,85 +146,43 @@ body {
     font-family: arial, sans-serif;
     color: #fff;
 }
-.left {
-    position:absolute;
-    float: left;
-    height: 196.4%;
-    width: 70px;
-    margin-top: 1px;
-    background-color: #0af;
-}
-.left ul {
-    list-style: none;
-    position: fixed;
-    float: left;
-    margin-left: 0;
-    padding-left: 0;
-}
 
-.left img {
+.images{
+    position: fixed;
+    top: 7cm;
+    right: 0;
+    height: auto;
+    width: auto;
+    display: inline;
+    list-style: none;
+    
+}
+.images img {
     height: 50px;
     width: 50px;
     border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
-}
-.about {
-    font-family: monospace;
-    text-decoration: line-through;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.description {
-    text-align: center;
-    font-family: cursive;
-    text-indent: 30px;
-    margin-left: 70px;
 }
 
 .favorite {
-    font-family: monospace;
-    text-decoration: line-through;
-    margin-bottom: 0;
-    margin-left: 70px;
-}
-
-.favorites {
-    font-family: monospace;
-    margin-bottom: 0;
-    margin-right: 20cm;
-    margin-left: 70px;
-}
-
-#body ul {
     list-style: none;
-    font-family: arial;
-    font-size: 20px;
-    font-weight: 100;
-    margin-left: 70px;
 }
 
-#body li {
+.favorite li {
     display: inline;
 }
 
-#body img {
-    position: inherit;
-}
-
 iframe {
-    border: 1px solid #000000;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 #footer {
-    position: static;
-    background: url('../images/ignasi.png');
+    position: relative;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top-style: double;
-    margin-top: -0.5cm;
+    bottom: -180px;
 }
 
 .form {
