@@ -179,10 +179,12 @@ iframe {
 #footer {
     position: relative;
     height: auto;
+    width: 30cm;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top-style: double;
     bottom: -180px;
+    left: 3cm;
 }
 
 .form {
@@ -217,4 +219,3 @@ iframe {
     -webkit-transform: scale(1.2);
     -webkit-transition: -webkit-transform .2s ease-in;
 }
-
