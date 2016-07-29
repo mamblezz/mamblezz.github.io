@@ -1,103 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <meta charset="utf-8">
-        <title> Marble Resurreccion </title>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-        <link rel="stylesheet" href="./css/style.css">
-        <script type="text/javascript" src="./js/clock.js"></script>
-        <script src="./js/menu.js"></script>
-    <script>
-        window.onclick = myFunction;
-
-    function myFunction() {
-        document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
-    }
-    </script>
-    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
-    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
-    <script type="text/javascript" src="animate.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dota 2 Philippines</title>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body onload="startTime()">
-
-    <ul class="images">
-        <li><img src="images/behance.png"></li>
-        <li><img src="images/dribble.png"></li>
-        <li><img src="images/linked%20in.png"></li>
-    </ul>
-    <div class="menu">
-        <div class="icon-close"><button>X</button> </div>
-        <ul>
-            <li><a href="https://www.youtube.com">About</a></li>
-            <li><a href="https://www.youtube.com">Blog</a></li>
-            <li><a href="https://www.youtube.com">Help</a></li>
-            <li><a href="https://www.youtube.com">Contact</a></li>
-        </ul>
-    </div>
-    <div class="jumbo">
-    <div id="header">
-        <img class="mypic" src="images/mamblezz.jpg">
-        <h2 class="name">MARBLE T. RESURRECCION</h2>
-        <a class="gmail" href="https://www.gmail.com ">mamblezz@gmail.com</a><br>
-    </div>
-        <p class="icon-menu">Menu</p>
-    </div>
-    <div id="body">
-        <div id="clockdate">
-            <div class="clockdate-wrapper">
-                <div id="clock"></div>
-                <div id="date"></div>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Marble T. Resurreccion</a>
             </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Heroes<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Strength</a></li>
+                        <li><a href="#">Agility</a></li>
+                        <li><a href="#">Intelligence</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Ability<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Active</a></li>
+                        <li><a href="#">Passive</a></li>
+                        <li><a href="#">Ultimate</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Items<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                        <li><a href="#">Active</a></li>
+                        <li><a href="#">Passive</a></li>
+                        <li><a href="#">Ultimate</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">Updates</a></li>
+                <li class="active"><a href="#">Forum</a></li>
+                <li class="active"><a href="#">Help</a></li>
+                <li class="active"><a href="#">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+            </ul>
         </div>
-        <canvas id="myCanvas"></canvas>
-                <p class="description">Welcome to my first website.I want you to enjoy in my first website. It looks <strong>awesome</strong> hahaha. Hope you guys will enjoy and explore.. Thanks and have a good day..Hehe</p>
-            <ul class="favorite">
-            <h3 class="favorites">Music</h3>
-                <li>
-                    <iframe width="340" height="225" src="https://www.youtube.com/embed/E-SeaCZE2TM?list=RDE-SeaCZE2TM" frameborder="0" allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe width="340" height="225" src="https://www.youtube.com/embed/WIm1GgfRz6M" frameborder="0" allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe width="340" height="225" src="https://www.youtube.com/embed/GXQxWeOYE7g" frameborder="0" allowfullscreen></iframe>
-                </li>
-            <h3 class="favorites">Movies</h3>
-                <li>
-                    <iframe width="340" height="225" src="https://www.youtube.com/embed/JAUoeqvedMo" frameborder="0" allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe width="340" height="225" src="https://www.youtube.com/embed/WovwuOFBUuY" frameborder="0" allowfullscreen></iframe>
-                </li>
-                        
-            <h3 class="favorites">Super Heroes</h3>
-                <li>
-                    <img src="./images/avengers.jpg">
-                </li>
-            <h3 class="favorites">Online Game</h3>
-                <li>
-                    <img src="./images/dota2.jpg">
-                </li>
-            </ul>
-    </div>
-    <div id="footer">
-        <form class="form">
-            <label>Feedback</label>
-            <textarea></textarea>
-            <input type="submit" value="click to submit">
-        </form>
-            <ul class="socials">
-                <li>
-                    <a class="social-image" href="https://www.facebook.com"><img src="images/face%20book.png"/></a>
-                </li>
-                <li>
-                    <a class="social-image" href="https://www.twitter.com"><img src="images/twitter.png"/></a>
-                </li>
-                <li>
-                    <a class="social-image" href="https://www.instagram.com"><img src="images/instagram.png"/></a>
-                </li>
-            </ul>
-    </div>
+    </nav>
 </body>
 </html>
