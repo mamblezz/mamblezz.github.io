@@ -1,9 +1,57 @@
-nav {
-    background-color: #1a2b3c;
+.navbar {
+    background-color: #910131;
+    height: 60px;
+    font-size: 20px;
+    padding-top: 5px;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
+    height: 500px;
   }
+.thumbnail{
+    list-style: none;
+}
+.thumbnail img {
+    height: 250px;
+    display: grid;
+}
+
+.socials {
+    position: fixed;
+    float: left;
+    height: 100%;
+}
+
+.socials li {
+    list-style: none;
+}
+
+.socials img {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    display: inline;
+    padding: 20px;
+}
+
+.footer li {
+    list-style: none;
+    display: inline;
+}
+.footer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.footer img:hover {
+    -webkit-transform: scale(1.2);
+    -webkit-transform: -webkit-transform 1.0s ease-in;
+}
