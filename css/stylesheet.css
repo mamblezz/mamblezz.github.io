@@ -18,6 +18,12 @@
     height: 250px;
     display: grid;
 }
+#clock-wrapper {
+    background-color: #0000ff;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
 
 .socials {
     position: fixed;
