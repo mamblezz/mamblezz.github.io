@@ -164,10 +164,10 @@ footer {
     }
     
     .socials li img {
-    height: auto;
-    width: 8%;
-    box-shadow: 0 2px 2px 0 #000;
-}
+        height: auto;
+        width: 8%;
+        box-shadow: 0 2px 2px 0 #000;
+    }
 
 }
 
