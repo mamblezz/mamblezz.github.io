@@ -1,12 +1,11 @@
 body {
-    font-family: 'Open Sans', sans-serif;
     background-image: url(/images/dota%202.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .jumbotron {
-    height: 100%;
+    padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,9 +21,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    border: 1px solid #000;
     margin-top: 0;
-    background-color: #fff;
 }
 
 .menu {
@@ -63,7 +60,8 @@ body {
 #body {
     width: 70%;
     margin-left: 15%;
-    background-color: #0fff0f;
+    background: rgb(77, 255, 00);
+    background: rgba(77, 255, 00, 0.8);
     text-align: center;
     height: 100%;
     border: 1px solid #000;
