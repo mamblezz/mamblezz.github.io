@@ -1,154 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Marble T. Resurreccion</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
-    <script>
-        var showWidth = 1;
-        if (showWidth == 1) {
-            $(document).ready(function(){
-                $(window).resize(function(){
-                    var width = $(window).width();
-                    document.getElementById("output_width").innerHTML="Window Width"+width.toString();
-                }); 
-            });
-        }
-    </script>
+        <meta charset="utf-8">
+        <title> Marble Resurreccion </title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <script type="text/javascript" src="./js/clock.js"></script>
+        <script src="./js/menu.js"></script>
 </head>
-<body>
-    <div id="output_width"></div>
-    <div class="text-center">
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Warning: You will be redirected to a 3rd party website</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p><a href="https://www.upwork.com/freelancers/~0136456bf6b870b709">Please Hire Me</a></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="logo"><img src="images/grvh5n5p2536iyd.jpg"></div>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">myName</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                    </li>
-                    <li class="dropdown">
-                        <button class="dropbtn">Hover Me</button>
-                        <div class="dropdown-content">
-                            <a href="#">Page 2-1</a>
-                            <a href="#">Page 2-2</a>
-                            <a href="#">Page 2-3</a>
-                        </div>
-                    </li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="fixed-socials">
+<body onload="startTime()">
+    <ul class="images">
+        <li><img src="images/behance.png"></li>
+        <li><img src="images/dribble.png"></li>
+        <li><img src="images/linked%20in.png"></li>
+    </ul>
+    <div class="menu">
+        <div class="icon-close"><button>X</button></div>
         <ul>
-            <li><a href="https://www.facebook.com"><img src="images/face%20book.png"></a></li>
-            <li><a href="https://www.twitter.com"><img src="images/twitter.png"></a></li>
-            <li><a href="https://www.linkedin.com"><img src="images/linked%20in.png"></a></li>
-            <li><a href="https://www.instagram.com"><img src="images/instagram.png"></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </div>
-    <div id="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="images/Cebu-Island-Beach-Wallpaper-High-Resolution-Stock-Images-234234.jpg" alt="Cebu">
-                    <div class="carousel-caption">
-                        <h3>Cebu</h3>
-                        <p>The queen city of the south.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/Shoko%20snap%20shot%20in%20nasugbu%20batangas%20philippines.jpg" alt="Batangas">
-                    <div class="carousel-caption">
-                        <h3>Batangas</h3>
-                        <p>Nasugbo Batangas beach.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/DAVAO-PKG-51.jpg" alt="Davao">
-                    <div class="carousel-caption">
-                        <h3>Davao</h3>
-                        <p>The vow. LOL...</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/Mactan-island.jpg">
-                    <div class="carousel-caption">
-                        <h3>Mactan</h3>
-                        <p>The island of Mactan.. LOL.</p>
-                    </div>
-                </div>
+    <div class="jumbo">
+    <div id="header">
+        <img class="mypic" src="images/mamblezz.jpg">
+        <h2 class="name">MARBLE T. RESURRECCION</h2>
+        <a class="gmail" href="gmail.com ">mamblezz@gmail.com</a><br>
+    </div>
+        <p class="icon-menu">Menu</p>
+    </div>
+    <div id="body">
+        <div id="clockdate">
+            <div class="clockdate-wrapper">
+                <div id="clock"></div>
+                <div id="date"></div>
             </div>
         </div>
+        <p>I am a student of Cebu Technological University taking course of Bacherlor of Science in Industrial Technology. I love coding, designing webpage and playing online game. I am 25 years old and currently living in Simala, Sibonga, Cebu, Philippines. I have my own style of learning. I will find ways to learn something in which I am comfortable of and I think it will be easy for me to understand.</p>
     </div>
-    <div class="content">
-        <div class="content-header"><h4>This is my designed website</h4></div>
-        <div class="contents">
-            <img src="images/Boracay.jpg" alt="Boracay"><p>This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website.<button type="button" href="#">Read more</button></p>
-        </div>
-        <div class="contents">
-            <img src="images/Boracay.jpg" alt="Boracay"><p>This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website.<button type="button" href="#">Read more</button></p>
-        </div>
-        <div class="contents">
-            <img src="images/Boracay.jpg" alt="Boracay"><p>This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website. This is my designed website.<button type="button" href="#">Read more</button></p>
-        </div>
+    <div id="footer">
+        <form class="form">
+            <label>Feedback</label>
+            <textarea></textarea>
+            <input type="submit" value="click to submit">
+        </form>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com"><img src="images/face%20book.png"/></a></li>
+            <li><a href="https://www.twitter.com"><img src="images/twitter.png"/></a></li>
+            <li><a href="https://www.instagram.com"><img src="images/instagram.png"/></a></li>
+        </ul>
     </div>
-    <footer>
-        <div id="footer">
-            <h5>This is my designed website and if you like to hire me just click the <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Hire Me</button></h5>
-            <ul class="socials">
-                <p>like me:</p>
-                <li><a href="https://www.facebook.com"><img src="images/face%20book.png"></a></li>
-                <li><a href="https://www.facebook.com"><img src="images/face%20book.png"></a></li>
-                <li><a href="https://www.facebook.com"><img src="images/face%20book.png"></a></li>
-                <li><a href="https://www.facebook.com"><img src="images/face%20book.png"></a></li>
-            </ul>
-        </div>
-    </footer>
 </body>
 </html>
